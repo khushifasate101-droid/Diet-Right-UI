@@ -1,3 +1,4 @@
+ Live Website: https://khushifasate101-droid.github.io/Diet-Right-UI/
 # Diet-Right: A Smart Food Recommendation System UI
 
 ## Research Paper Title
