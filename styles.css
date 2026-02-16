@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #6dd5ed, #2193b0);
+  color: #333;
+}
+
+/* NAVBAR */
+
+nav {
+  background: rgba(255,255,255,0.2);
+  backdrop-filter: blur(10px);
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h1 {
+  color: white;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* CONTAINER */
+
+.container {
+  max-width: 1000px;
+  margin: 50px auto;
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+/* HERO */
+
+.hero {
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #2193b0;
+}
+
+.hero p {
+  margin-bottom: 20px;
+}
+
+/* BUTTON */
+
+.btn {
+  background: #2193b0;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #176a80;
+}
+
+/* FORM */
+
+form input, form select {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+/* CARD */
+
+.card {
+  background: #f7f7f7;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 15px 0;
+  border-left: 6px solid #2193b0;
+}
+
+/* FOOTER */
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: white;
+  margin-top: 30px;
+}
